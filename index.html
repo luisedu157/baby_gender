@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+        <title>Boy_or_Girl</title>
+        <style>
+            
+            body{
+                background-image: url("background_baby.jpg");
+                font-family: 'Architects Daughter', cursive;
+
+            }
+
+            #ecoimg{
+               border: 4px solid darkgray;
+               border-radius: 20px;     
+            }
+
+            h1{
+                color: black;
+                font-weight: bolder;
+            }
+
+            .leyenda{
+                font-size: 24px;
+                font-weight: bolder;
+                text-align: center;
+                color: black
+            }
+
+            .formulario{
+                text-align: center;
+            }
+
+            .formulario form{
+                color:black;
+                font-weight: bolder;
+            }
+
+            .formulario form input{
+                border: 2px solid black;
+                font-size: 24px;
+            }
+
+            #boton{
+                font-size: 18px;
+                background-color: cornsilk;
+                font-weight: bolder;
+                border-radius: 15px;
+                padding: 10px;
+
+            }
+
+            #boy{
+                border: 3px solide black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container col-lg-12 col-sm-2">
+            <h1 style="text-align: center;">Qué crees que será Niño o Niña?</h1>
+            <p></p>
+
+            <img id="ecoimg" src="ecobebe.jpg" class="rounded mx-auto d-block" width="300">
+
+            <div class="leyenda">
+                <p>Danos tu predicción a continuación</p>
+            </div>
+            <div class="formulario">
+                <form>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name">
+                    <label for="boy">Niño</label>
+                    <input type="radio" id="boy" name="gender" value="boy">
+                    <label for="girl">Niña</label>
+                    <input type="radio" id="girl" name="gender" value="girl">
+                    <p></p>
+                    <input type="submit" id="boton" value="Enviar">
+
+                </form>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+</html>
